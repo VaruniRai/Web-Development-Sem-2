@@ -1,0 +1,208 @@
+@font-face {
+    font-family:'HelveticaNowDisplay-Black';
+    src: url('Fonts/HelveticaNowDisplay-Black.ttf');
+}
+@font-face {
+    font-family:'HelveticaNowDisplay-Light';
+    src: url('Fonts/HelveticaNowDisplay-Light.ttf');
+}
+@font-face {
+    font-family:'HelveticaNowDisplay-Medium';
+    src: url('Fonts/HelveticaNowDisplay-Medium.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* Navbar Style */
+
+.navbar{
+    width: 100%;
+    height: 112px;
+    background-color: #020202;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 140px;
+}
+.first-sec, .second-sec{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 25px;
+}
+.menu ul li{
+    font-family:'HelveticaNowDisplay-Medium';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+}
+.second-sec button{
+    width: 193px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #fcaf17;
+    color: #020202;
+    font-family:'HelveticaNowDisplay-Medium';
+    font-size: 20px;
+    font-weight: 500;
+    line-height:30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.search, .account{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5a5a5a;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* HEROSECTION */
+.herosection{
+    width: 100%;
+}
+
+/* HIGHLIGHTED GAMES */
+.highlighted-games{
+    width: 100%;
+    background-color: #101010;
+    padding: 80px 140px;
+}
+.game-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-family:'HelveticaNowDisplay-Black';
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 72px;
+    text-align: left;
+    color: #f6f6f6;
+}
+.tag-section{
+    display: flex;
+    gap: 16px;
+}
+.tags{
+    padding: 4px 24px;
+    font-family:'HelveticaNowDisplay-Medium';
+    font-size: 16px;
+    font-weight: 500;
+    line-height:24px;
+    text-align: left;
+    color: #f6f6f6;
+    background-color: #606060;
+    border-radius: 20px;
+}
+.games-images{
+    display: flex;
+    padding: 40px 0px ;
+    gap: 40px;
+}
+.game-btn{
+    width: 260px;
+    height: 63px;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcaf17;
+    color: #020202;
+    font-family:'HelveticaNowDisplay-Medium';
+    font-size: 20px;
+    font-weight: 500;
+    line-height:30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.latest-news{
+    width: 100%;
+    background-color: #101010;
+    padding: 80px 140px;
+}
+.latest-news-sec{
+    display: flex;
+    gap: 40px;
+}
+.description-box{
+    width: 100%;
+    border-radius: 0px 0px 16px 16px;
+    padding: 24px 32px;
+    background-color: #020202;
+}
+.description-box h6{
+    font-family:'HelveticaNowDisplay-Medium';
+    font-size: 32px;
+    font-weight: 500;
+    line-height:48px;
+    color: #fff;
+}
+.description-box p{
+    font-family:'HelveticaNowDisplay-Light';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #797979;
+}
+.right-side-news .description-box{
+    padding: 8px 12px;
+}
+.right-side-news .description-box h6{
+    font-size: 13px;
+    line-height: 19px;
+}
+.right-side-news .description-box p{
+    font-size: 12px;
+    line-height: 18px;
+}
+.latest-news .right-side-news{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* FOOTER SECTION */
+footer{
+    width: 100%;
+    height: 240px;
+    background-color: #020202;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 140px;
+}
+.footer-left-side-section{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.copyright{
+    color: #b1b1b1;
+    font-family:'HelveticaNowDisplay-Light';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19px;
+}
+.footer-right-side-section .social-media{
+    display: flex;
+    gap: 32px;
+}

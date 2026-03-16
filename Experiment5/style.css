@@ -1,0 +1,39 @@
+.container{
+    text-align: center;
+display: block;
+background-color: rgb(40, 73, 158);
+margin: 30px;
+padding: 10px;
+}
+.button{
+padding: 5px;
+margin: 5px;
+background-color: rgb(240, 243, 237);
+}
+#name{
+height: 30px;
+width: 250px;
+border-radius: 10px;
+margin-left: 10px;
+}
+#id{
+height: 30px;
+width: 250px;
+border-radius: 10px;
+margin-left:10px;
+}
+#salary{
+height: 30px;
+width: 250px;
+border-radius: 10px;
+margin-left: 10px;
+}
+#department{
+height: 30px;
+width: 250px;
+border-radius: 10px;
+margin-left: 10px;
+}
+.button:hover{
+background-color:rgb(200, 73, 188) ;
+}

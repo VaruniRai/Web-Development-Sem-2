@@ -1,0 +1,50 @@
+
+
+body {
+    padding: 130px;
+}
+.container{
+    text-align: center;
+display: block;
+background-color: rgb(70, 188, 199);
+margin: 30px;
+padding: 10px;
+}
+.button{
+padding: 5px;
+margin: 5px;
+background-color: rgb(240, 243, 237);
+}
+#changeTextBtn{
+height: 30px;
+width: 250px;
+border-radius: 10px;
+margin-left: 10px;
+}
+#bgColorBtn{
+height: 30px;
+width: 250px;
+border-radius: 10px;
+margin-left:10px;
+}
+#fontSizeBtn{
+height: 30px;
+width: 250px;
+border-radius: 10px;
+margin-left: 10px;
+}
+#toggleBtn{
+height: 30px;
+width: 250px;
+border-radius: 10px;
+margin-left: 10px;
+}
+#resetBtn{
+height: 30px;
+width: 250px;
+border-radius: 10px;
+margin-left: 10px;
+}
+.button:hover{
+background-color:rgb(5, 20, 15) ;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com - Shop Online</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header class="amazon-header">
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="nav-logo">amazon<span>.clone</span></div>
+                <div class="nav-delivery">
+                    <span class="delivery-icon">📍</span>
+                    <div class="delivery-text">
+                        <p class="text-light">Deliver to</p>
+                        <p class="text-bold">Customer</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-search">
+                <select class="search-dropdown">
+                    <option>All Departments</option>
+                </select>
+                <input type="text" placeholder="Search Amazon..." id="search-input">
+                <button class="search-icon-btn">🔍</button>
+            </div>
+            
+            <div class="nav-right">
+                <div class="nav-account">
+                    <p class="text-light">Hello, sign in</p>
+                    <p class="text-bold">Account & Lists ▾</p>
+                </div>
+                <div class="nav-orders">
+                    <p class="text-light">Returns</p>
+                    <p class="text-bold">& Orders</p>
+                </div>
+                <div class="nav-cart" id="cart-btn">
+                    <div class="cart-icon-wrapper">
+                        <span class="cart-icon">🛒</span>
+                        <span class="cart-count" id="cart-count">0</span>
+                    </div>
+                    <span class="text-bold cart-label">Cart</span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="subnav-bar">
+            <span class="menu-all">☰ All</span>
+            <span>Today's Deals</span>
+            <span>Customer Service</span>
+            <span>Registry</span>
+            <span>Gift Cards</span>
+            <span>Sell</span>
+        </div>
+    </header>
+
+    <main class="main-layout">
+        <div class="hero-banner">
+            <img src="https://img.freepik.com/premium-psd/black-friday-celebration-template_23-2151838349.jpg?semt=ais_incoming&w=740&q=80">
+        </div>
+
+        <div class="content-wrapper">
+            <div class="products-section">
+                <h2 class="section-title">Trending Deals in Electronics & Apparel</h2>
+                <div class="products-grid" id="products-container">
+                    </div>
+            </div>
+
+            <div class="cart-sidebar">
+                <div class="prime-badge-promo">✓ Your order qualifies for FREE Shipping</div>
+                <h3 class="subtotal-text">Subtotal (<span id="items-count-label">0</span> items):</h3>
+                <p class="cart-total-price" id="cart-total-price">$0.00</p>
+                
+                <div class="gift-checkbox">
+                    <input type="checkbox" id="is-gift">
+                    <label for="is-gift">This order contains a gift</label>
+                </div>
+
+                <button class="checkout-btn" id="checkout-btn">Proceed to checkout</button>
+
+                <div class="cart-items-list" id="cart-items-container">
+                    <p class="empty-msg">Your Amazon Cart is empty.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
